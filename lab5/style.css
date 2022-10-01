@@ -1,0 +1,36 @@
+body{
+    background-image: url("seamless-pattern-background-2488325.jpg");
+    background-repeat: repeat;
+}
+pre{
+    color: maroon;
+    font-size: large;
+}
+
+#paragraph2{
+    font-style: italic;
+}
+
+.head1{
+    color: olive;
+    font-size: 22px;
+}
+
+.paragraph3{
+    color: navy;
+}
+
+.paragraph4{
+    border: 10px ridge green;
+}
+
+.paragraph5{
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+}
+
+.paragraph6{
+    text-align: right;
+    letter-spacing: 5px;
+}
