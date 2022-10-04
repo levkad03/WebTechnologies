@@ -1,0 +1,52 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list{
+    color: maroon;
+    list-style-type: lower-greek;
+}
+
+.a1:link{
+    color: red;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+.a1:visited{
+    color: aqua;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+.a2:link{
+    color: brown;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+.a2:visited{
+    color: deeppink;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+.a3:link{
+    color: crimson;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+.a3:visited{
+    color: darkorange;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
+.a3:hover{
+    color: green;
+    cursor: crosshair;
+    border-bottom: 1px dashed;
+    text-decoration: none;
+}
+
