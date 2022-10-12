@@ -1,0 +1,54 @@
+.img1{
+    width: 500px;
+    height: 300px;
+    float: right;
+}
+
+.menu{
+    float: left;
+    border-collapse: collapse;
+}
+tr,td{
+    border: 1px solid black;
+}
+.menu:hover{
+    display: block;
+    color: red;
+    background-color: gray;
+}
+caption{
+    font-style: italic;
+}
+
+.scale{
+    transition: 1s;
+    width: 400px;
+    height: 200px;
+}
+.scale:hover{
+    transform: scale(3);
+}
+
+.caption{
+    float:left;
+    color:blueviolet;
+}
+table{
+    border-collapse: collapse;
+}
+.punkt{
+    border: 1px solid black;
+    border-bottom: 1px dashed black;
+    border-top: 1px dashed black;
+}
+.color{
+    background-color: green;
+}
+.nopunkt{
+    border: 1px solid black;
+    border-bottom: 1px dashed black;
+}
+.otherpunkt{
+    border: 1px solid black;
+    border-top: 1px dashed black;
+}
