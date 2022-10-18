@@ -1,0 +1,52 @@
+body{
+    background: url("seamless-pattern-background-2488325.jpg");
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.poly{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    clip-path: polygon(0% 0%, 40% 48%, 0% 100%, 48% 71%, 100% 99%, 64% 47%, 100% 0%, 53% 24%);
+    float: left;
+}
+
+
+.polyright{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    clip-path: polygon(0% 0%, 40% 48%, 0% 100%, 48% 71%, 100% 99%, 64% 47%, 100% 0%, 53% 24%);
+    float: right;
+}
+
+.moon{
+    margin-top: 5%;
+    width: 270px;
+    height: 180px;
+    clip-path: circle(44.7% at 46% 49%);
+    background: url("moon-png-5a3ad93db76ab1.00398271151380614175136308.jpg");
+}
+
+.star{
+    width: 100px;
+    height: 100px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color: yellow;
+    float: left;
+}
+
+.message{
+    width: 200px;
+    height: 200px;
+    background-color: navy;
+    color: whitesmoke;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
