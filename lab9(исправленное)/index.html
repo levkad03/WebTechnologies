@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Лабораторна робота 9</title>
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <form name="MyForm" onsubmit="return validateForm()">
+            <label>Введите имя:</label>
+            <input type="text" name="fname" id="name"><br>
+            <label>Введите электронную почту</label>
+            <input type="email" name="E-mail" id="email"><br>
+            <label>Введите номер телефона</label>
+            <input type="text" name="telephone" id="phone"><br>
+            <input type="radio" name="radio">Radio1<br>
+            <input type="radio" name="radio">Radio2<br>
+            <input type="radio" name="radio">Radio3<br>
+            <select name="select">
+                <option value="value1">Значение 1</option>
+                <option value="value2" selected>Значение 2</option>
+                <option value="value3">Значение 3</option>
+            </select><br>
+            <input type="checkbox">checkbox1<br>
+            <input type="checkbox">checkbox2<br>
+            <input type="checkbox">checkbox3<br>
+            <input type="text" name="text"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
